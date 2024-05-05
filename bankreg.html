@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Registration</title>
+    <script type="module" src="ether.js"></script>
+    <link href="bank.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Bank Registration</h1>
+    <form id="registrationForm">
+        <label for="bankname">Bank Name:</label>
+        <input type="text" id="bankname" name="bankname" required><br>
+
+        <label for="ethadd">Ethereum Address:</label>
+        <input type="text" id="ethadd" name="ethadd" required><br>
+
+        <button type="button" id="regButton">Register</button>
+    </form>
+
+    <div id="result"></div>
+    <script type="module" src="banker.js"></script>
+</body>
+</html>
